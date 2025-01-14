@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Outfit-VariableFont_wght';
+    src: url('../fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'YoungSerif-Regular';
+    src: url('../fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+main {
+    margin: auto;
+    padding-left: 10px;
+    width: 423px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.imagem {
+    flex: auto;
+    height: 228px;
+    width: 100vw;
+    background-image: url('../images/image-omelette.jpeg');
+    background-size: contain; /* Ajusta a imagem para caber completamente na div */
+    background-repeat: no-repeat; /* Evita que a imagem se repita se for menor que a div */
+    background-position: center center; /* Centraliza a imagem dentro da div */
+}
+
+main > h1 {
+    font-family: 'YoungSerif-Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+main > h2 {
+    font-family: 'YoungSerif-Regular', Arial, Helvetica, sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+main > section > h2 {
+    font-family: 'YoungSerif-Regular', Arial, Helvetica, sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-size: 1.8em;
+    padding: 15px 0px 0px 0px;
+    padding-bottom: 20px;
+}
+
+hr {
+    border: none; /* Remove a borda padrão */
+    border-top: 2px solid rgba(0, 0, 0, 0.11); /* Define a cor e espessura da linha */
+    margin: 20px 0; /* Ajusta o espaçamento ao redor da linha */
+}
+
+p {
+    line-height: 25px;
+    font-size: 1em;
+}
+
+/* PREPARATION */
+main > section.preparation {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: hsla(332, 51%, 32%, 0.137);
+    border-radius: 15px;
+}
+
+main > section.preparation > h4 {
+    font-size: 1.3em;
+    color: hsl(332, 51%, 32%);
+}
+
+main > section.preparation > ul {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+main > section.preparation > ul > li {
+    padding: 10px;
+    margin-right: 85px;
+    font-size: 1em;
+}
+
+main > section.preparation > ul > li::marker { /* Diminui o tamanho da bolinha da lista */
+    font-size: 0.7em;
+    color: hsl(14, 45%, 36%);
+}
+/* PREPARATION */
+
+
+
+/* INGREDIENTS */
+main > section.ingredients > ul {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+main > section.ingredients > ul > li {
+    padding: 10px;
+    margin-right: 80px;
+    font-size: 1em;
+}
+
+main > section.ingredients > ul > li::marker { /* Diminui o tamanho da bolinha da lista */
+    font-size: 0.7em;
+    color: hsl(14, 45%, 36%);
+}
+/* INGREDIENTS */
+
+
+
+/* INSTRUCTIONS */
+main > section.instruction > h2 {
+    font-family: 'YoungSerif-Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.8em;
+    padding: 15px 0px 0px 0px;
+}
+
+main > section.instruction > ol {
+    padding: 10px;
+}
+
+main > section.instruction > ol > li {
+    padding: 10px;
+    margin-right: 85px;
+    font-size: 1em;
+    line-height: 25px
+}
+
+main > section.instruction > ol > li::marker { /* Diminui o tamanho da bolinha da lista */
+    font-size: 0.8em;
+    color: hsl(14, 45%, 36%);
+}
+/* INSTRUCTIONS */
+
+
+
+/* NUTRITION */
+main > section.nutriction > p {
+    font-size: 1em;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.caloria1 { margin-left: 40px; }
+.caloria2 { margin-left: 40px; }
+.caloria3 { margin-left: 40px; }
+.caloria4 { margin-left: 40px; }
+
+.caloria1::after {
+    content: " 277kcal";
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding-left: 70px;
+  }
+
+.caloria2::after {
+    content: " 0g";
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding-left: 85px;
+  }
+
+.caloria3::after {
+    content: " 20g";
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding-left: 75px;
+  }
+
+.caloria4::after {
+    content: " 22g";
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding-left: 100px;
+  }
+
+.calorias {
+    color: hsl(14, 45%, 36%);
+}
+/* NUTRITION */
+
+
+
+/* FOOTER */
+    footer {
+        color: white;
+        background-color: gray;
+        margin: auto;
+        padding: 10px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    footer > a {
+        text-decoration: none;
+    }
+
+    footer > a:hover {
+        text-decoration: underline;
+    }
+/* FOOTER */
