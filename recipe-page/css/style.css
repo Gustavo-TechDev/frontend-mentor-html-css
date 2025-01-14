@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Outfit-VariableFont_wght';
-    src: url('../fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-family: 'YoungSerif-Regular';
+    src: url('../fonts/young-serif/YoungSerif-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'YoungSerif-Regular';
-    src: url('../fonts/young-serif/YoungSerif-Regular.ttf');
+    font-family: 'Outfit-VariableFont_wght';
+    src: url('../fonts/outfit/Outfit-VariableFont_wght.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -19,7 +19,7 @@
 }
 
 body{
-    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     height: 100vh;
     width: 100vw;
@@ -28,7 +28,8 @@ body{
 
 main {
     border: 1px solid black;
-
+    font-family: 'Outfit-VariableFont_wght', Arial, Helvetica, sans-serif;
+    font-weight: 300;
     min-width: 350px;
     max-width: 650px;
     margin: 25px;
@@ -42,6 +43,127 @@ div {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+h1 {
+    font-family: 'YoungSerif-Regular', Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    color: (14, 45%, 36%)
+}
+
+h2 {
+    font-family: 'YoungSerif-Regular', Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 450px;
+}
+
+
+/* INTRODUÇÃO */
+    section#introducao {
+        padding: 35px;
+    }
+
+    section#introducao > p {
+        padding-top: 15px;
+    }
+/* INTRODUÇÃO */
+
+
+
+/* PREPARO */
+section#preparo {
+    padding-left: 35px;
+    margin-left: 35px;
+    height: 200px;
+    width: 420px;
+    border-radius: 15px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+section#preparo > h4 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    color: hsl(332, 51%, 32%);
+}
+
+section#preparo > ul {
+    padding-left: 25px;
+}
+
+section#preparo > ul > li {
+    margin-right: 8em;
+    padding: 5px;
+}
+
+section#preparo > ul > li::marker {
+    font-size: 10px; /* Diminui o tamanho da bolinha do marcador */
+  }
+/* PREPARO */
+
+
+
+/* INGREDIENTES */
+  section#ingredientes {
+    padding-top: 25px;
+    margin-left: 35px;
+  }
+
+  section#ingredientes > ul {
+    padding-top: 15px;
+    margin-left: 25px;
+  }
+
+  section#ingredientes > ul > li {
+    padding: 5px;
+    margin-right: 9em;
+  }
+
+  section#ingredientes > ul > li::marker {
+    font-size: 10px; /* Diminui o tamanho da bolinha do marcador */
+  }
+/* INGREDIENTES */
+
+
+
+/* INSTRUCAO */
+section#instrucao {
+    padding-top: 25px;
+    margin-left: 35px;
+  }
+
+section#instrucao > ol {
+    padding-top: 15px;
+    margin-left: 25px;
+  }
+
+section#instrucao > ol > li {
+    padding: 5px;
+    margin-right: 8em;
+  }
+
+  section#instrucao > ol > li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+/* INSTRUCAO */
+
+
+
+
+
+
+
+
+
 
 
 
