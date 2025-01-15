@@ -84,7 +84,7 @@ section#preparo {
     padding-left: 35px;
     margin-right: 30px;
     margin-left: 35px;
-    height: 180px;
+    height: 190px;
     width: 420px;
     width: auto;
     border-radius: 15px;
@@ -175,7 +175,7 @@ section.nutricional {
 }
 
 .calorias {
-    margin-left: 90px;
+    margin-left: 75px;
     width: 200px;
     display: flex;
     justify-content: space-between;
