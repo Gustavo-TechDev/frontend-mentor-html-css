@@ -16,8 +16,8 @@ Você pode acessar esse desafio no link a seguir: https://www.frontendmentor.io/
 
 # Minha versão para dispositivos móveis
 
-![Design preview for mobile screen](./my-mobile-version.jpg)
+![Design preview for mobile screen](./designs/my-mobile-version.jpg)
 
 # Minha versão para telas grandes
 
-![Design preview for bid screen](./my-big-screen-version.jpg)
+![Design preview for bid screen](./designs/my-big-screen-version.jpg)
