@@ -14,13 +14,9 @@ Você pode usar qualquer ferramenta que você preferir para cumprir esse desafio
 
 Você pode acessar esse desafio no link a seguir: https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
 
-<hr>
-
 # Minha versão para dispositivos móveis
 
 ![Design preview for mobile screen](./my-mobile-version.jpg)
-
-<hr>
 
 # Minha versão para telas grandes
 
